@@ -11,6 +11,7 @@ export default function Home() {
             <h1 className="text-primary-light font-medium text-3xl sm:text-3xl xl:text-6xl ">
               {"Hi, I\'m Sprocket"}
             </h1>
+            
             <h2 className="text-accent text-sm sm:text-sm xl:text-lg">
               Student | Fullstack Developer | Photographer
             </h2>
