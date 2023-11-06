@@ -9,11 +9,11 @@ const config: Config = {
   theme: {
     /* https://colorhunt.co/palette/27374d526d829db2bfdde6ed */
     colors: {
-      'background-dark': '#1c1a11',
-      'background-light': '#27374D',
-      'primary-dark': '#526D82',
-      'primary-light': '#DDE6ED',
-      'accent': '#9DB2BF',
+      'background-dark': '#2E3440',
+      'background-light': '#4C566A',
+      'primary-dark': '#88C0D0',
+      'primary-light': '#D8DEE9',
+      'accent': '#81A1C1',
     },
     extend: {
       fontFamily: {
