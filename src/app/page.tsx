@@ -2,6 +2,7 @@ import Image from "next/image"
 
 import {FaGithub, FaLinkedin, FaEnvelope} from "react-icons/fa";
 import BannerPhoto from '../../public/FilmPhoto.jpg'
+import React from "react";
 
 
 /* 
@@ -12,9 +13,10 @@ import BannerPhoto from '../../public/FilmPhoto.jpg'
 */
 
 export default function Home() {
+
   return (
     <main className="flex min-h-screen flex-col items-center justify-between bg-background-dark ">
-      <div className="flex flex-col items-start p-10 h-5/6 w-full sm:w-10/12 md:w-8/12 lg:w-7/12 xl:w-6/12">
+      <div className="flex flex-col items-start p-10 h-5/6 w-full sm:w-10/12 md:w-8/12 lg:w-7/12 xl:w-6/12 2xl:w-5/12">
         <div className="w-full my-8">
           <Image className="object-scale-down w-full h-full rounded-lg" src={BannerPhoto} alt="Photo of Seattle skyline"/>
         </div>
@@ -28,15 +30,16 @@ export default function Home() {
             Student | Fullstack Developer | Photographer
           </h2>
 
-          <div className="flex flex-row justify-start w-full">
-            <a href="https://github.com/aberiggs" target="_blank" className="mr-12">
-              <FaGithub className="text-primary-light hover:text-background-light w-8 h-auto"/>
+          <div className="flex flex-row justify-between w-1/2 h-7 lg:h-8 xl:h-8">
+            <a href="https://github.com/aberiggs" target="_blank" >
+              <FaGithub className="text-primary-light hover:text-background-light w-auto h-full"/>
             </a>
-            <a href="https://linkedin.com/in/aberiggs4" target="_blank" className="mr-12">
-              <FaLinkedin className="text-primary-light hover:text-background-light w-8 h-auto" />
+            <a href="https://linkedin.com/in/aberiggs4" target="_blank">
+              <FaLinkedin className="text-primary-light hover:text-background-light w-auto h-full" />
             </a>
-    
-            <FaEnvelope className="text-primary-light hover:text-background-light w-8 h-auto" />
+            <a href="mailto:aberiggsiv@gmail.com" target="_blank">
+              <FaEnvelope className="text-primary-light hover:text-background-light w-auto h-full" />
+            </a>
           </div>
         </div>
         
