@@ -44,27 +44,27 @@ export default function Home() {
 
 
         <div className="w-full">
-          <h3 className="text-primary-light text-md sm:text-xl underline underline-offset-4 decoration-2">
+          <h3 className="text-primary-light text-lg lg:text-xl underline underline-offset-4 decoration-2">
             Bio
           </h3>
-          <p className="text-primary-light indent-0 mt-2">
+          <p className="text-primary-light indent-0 mt-2 text-md lg:text-lg">
             {`My real name is Abe, but all my friends know me as Sprocket! I'm an aspiring software engineer from Seattle, Washington, and currently majoring in Computer Science at Purdue University.`}
           </p>
 
-          <h3 className="text-primary-light text-md sm:text-xl underline underline-offset-4 decoration-2 mt-4">
+          <h3 className="text-primary-light text-lg lg:text-xl underline underline-offset-4 decoration-2 mt-4">
             Experience
           </h3>
-          <p className="text-primary-light indent-0 mt-2">
+          <p className="text-primary-light indent-0 mt-2 text-md lg:text-lg">
             This past summer I was an intern at <a className="text-accent hover:text-background-light" href="https://rndgroup.com/" target="_blank">The RND Group</a>, which is a medical device software company based in Indianapolis, Indiana. I was a software developer on the NeuMoDx project, an FDA approved device shipped internationally that allows for testing of various diseases at large scales. I worked on tasks like resolving defects in user options and sample running menus that operators interact with daily that impacted security and usability, creating audits that allow for the logging and monitoring of user actions, and correcting filtering so that operators can clearly find the sample results and tests that they need.
             <br />
             <br />
             Currently, I&apos;m a developer for the Purdue club known as <a className="text-accent hover:text-background-light" href="https://pros.cs.purdue.edu/" target="_blank">PROS</a>, where we build and maintain a kernel for VEX&apos;s V5 robot brain that&apos;s used by teams around the world in robotics competitions.
           </p>
 
-          <h3 className="text-primary-light text-md sm:text-xl underline underline-offset-4 decoration-2 mt-4">
+          <h3 className="text-primary-light text-lg lg:text-xl underline underline-offset-4 decoration-2 mt-4">
             Hobbies
           </h3>
-          <p className="text-primary-light indent-0 mt-2">
+          <p className="text-primary-light indent-0 mt-2 text-md lg:text-lg">
             When I get a break from my studies, I usually spend time playing games with friends or running outside to snap some photos. I was brought up around video games, and so ever since I was young they&apos;ve been fun a way to stay   connected to both friends and family. As for photography, I picked it up just over a year ago, and it&apos;s served as a way to capture memories. I primarily focus on landscape and street photography, and have a particular love for film. You can find my Instagram account where I post some of my photos <a className="text-accent hover:text-background-light" href="https://www.instagram.com/sprock_shoots_film" target="_blank">here</a> if you&apos;re interested.
             <br />
             <br />
