@@ -18,7 +18,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between bg-background-dark ">
       <div className="flex flex-col items-start p-10 h-5/6 w-full sm:w-10/12 md:w-8/12 lg:w-7/12 xl:w-6/12 2xl:w-5/12">
         <div className="w-full my-8">
-          <Image className="object-scale-down w-full h-full rounded-lg" src={BannerPhoto} alt="Photo of Seattle skyline"/>
+          <Image priority={true} className="object-scale-down w-full h-full rounded-lg" src={BannerPhoto} alt="Photo of Seattle skyline"/>
         </div>
 
         <div className="flex flex-col">
