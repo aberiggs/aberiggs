@@ -23,7 +23,7 @@ export default function Home() {
 
         <div className="flex flex-col">
           <h1 className="text-primary-light font-medium text-3xl sm:text-5xl xl:text-6xl ">
-            {"Hi, I\'m Sprocket"}
+            Hi, I&apos;m Sprocket
           </h1>
           
           <h2 className="text-accent text-md sm:text-xl xl:text-2xl pt-1 pb-3">
@@ -51,7 +51,7 @@ export default function Home() {
             Bio
           </h3>
           <p className="text-primary-light indent-0 mt-2 text-md lg:text-lg">
-            {`My real name is Abe, but all my friends know me as Sprocket! I'm an aspiring software engineer from Seattle, Washington, and currently majoring in Computer Science at Purdue University.`}
+            My real name is Abe, but all my friends know me as Sprocket! I&apos;m an aspiring software engineer from Seattle, Washington, and currently majoring in Computer Science at Purdue University.
           </p>
 
           <h3 className="text-primary-light text-lg lg:text-xl underline underline-offset-4 decoration-2 mt-4">
