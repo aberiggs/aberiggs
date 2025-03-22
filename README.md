@@ -1,6 +1,4 @@
 ### Hi, I'm Sprocket 👋
-Computer Science Student @ Purdue University
-
 #### 💼 Experience
 - **Software Development Engineer** @ Adobe [Feb. 2025 - Present]
 - **Research Engineering Intern** @ Adobe [Summer 2024]
@@ -8,6 +6,10 @@ Computer Science Student @ Purdue University
 - **Software Engineering Intern** @ The RND Group [Summer 2023]
 
 #### 🌱 Interests
+- Computer Graphics
 - Systems Development
-- Computer Vision & Graphics
+- Computer Vision & Reinforcement Learning
 - Computer Security
+
+#### 🏫 Education
+- Bachelor of Science in Computer Science, Minor in Math @ Purdue University [Aug. 2021 - Dec. 2024]
