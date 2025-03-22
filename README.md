@@ -12,4 +12,4 @@
 - Computer Security
 
 #### 🏫 Education
-- Bachelor of Science in Computer Science, Minor in Math @ Purdue University [Aug. 2021 - Dec. 2024]
+Bachelor of Science in Computer Science, Minor in Math @ Purdue University [Aug. 2021 - Dec. 2024]
