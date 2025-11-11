@@ -1,6 +1,6 @@
 import Image from "next/image"
 
-import {FaGithub, FaLinkedin, FaEnvelope} from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import BannerPhoto from '../../public/FilmPhoto.jpg'
 import React from "react";
 
@@ -18,21 +18,21 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between bg-background-dark ">
       <div className="flex flex-col items-start p-10 h-5/6 w-full sm:w-10/12 md:w-8/12 lg:w-7/12 xl:w-6/12 2xl:w-5/12">
         <div className="w-full my-8">
-          <Image priority={true} className="object-scale-down w-full h-full rounded-lg" src={BannerPhoto} alt="Photo of Seattle skyline"/>
+          <Image priority={true} className="object-scale-down w-full h-full rounded-lg" src={BannerPhoto} alt="Photo of Seattle skyline" />
         </div>
 
         <div className="flex flex-col">
           <h1 className="text-primary-light font-medium text-3xl sm:text-5xl xl:text-6xl ">
             Hi, I&apos;m Sprocket
           </h1>
-          
+
           <h2 className="text-accent text-md sm:text-xl xl:text-2xl pt-1 pb-3">
             Student | Fullstack Developer | Photographer
           </h2>
 
           <div className="flex flex-row justify-between w-1/2 h-7 lg:h-8 xl:h-8">
             <a href="https://github.com/aberiggs" target="_blank" >
-              <FaGithub className="text-primary-light hover:text-background-light w-auto h-full"/>
+              <FaGithub className="text-primary-light hover:text-background-light w-auto h-full" />
             </a>
             <a href="https://linkedin.com/in/aberiggs4" target="_blank">
               <FaLinkedin className="text-primary-light hover:text-background-light w-auto h-full" />
@@ -42,8 +42,8 @@ export default function Home() {
             </a>
           </div>
         </div>
-        
-        <div className="h-10"/>
+
+        <div className="h-10" />
 
 
         <div className="w-full">
@@ -71,11 +71,11 @@ export default function Home() {
             When I get a break from my studies, I usually spend time playing games with friends or running outside to snap some photos. I was brought up around video games, and so ever since I was young they&apos;ve been fun a way to stay   connected to both friends and family. As for photography, I picked it up just over a year ago, and it&apos;s served as a way to capture memories. I primarily focus on landscape and street photography, and have a particular love for film. You can find my Instagram account where I post some of my photos <a className="text-accent hover:text-background-light" href="https://www.instagram.com/sprock_shoots_film" target="_blank">here</a> if you&apos;re interested.
             <br />
             <br />
-            
+
           </p>
         </div>
 
-    
+
       </div>
 
       <div className="flex h-1/6 items-center justify-center  pb-5">
