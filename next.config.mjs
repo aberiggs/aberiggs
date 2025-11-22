@@ -1,4 +1,5 @@
 import createMDX from '@next/mdx'
+import rehypePrettyCode from 'rehype-pretty-code'
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -7,8 +8,16 @@ const nextConfig = {
     // Optionally, add any other Next.js config below
 }
 
+/** @type {import('rehype-pretty-code').Options} */
+const rehypePrettyCodeOptions = {
+    theme: 'github-dark',
+    keepBackground: false,
+}
+
 const withMDX = createMDX({
-    // Add markdown plugins here, as desired
+    options: {
+        rehypePlugins: [[rehypePrettyCode, rehypePrettyCodeOptions]],
+    },
 })
 
 // Merge MDX config with Next.js config
