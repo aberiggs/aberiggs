@@ -25,7 +25,7 @@ export const posts: PostMetadata[] = [
 
 // Get all posts sorted by date (newest first)
 export function getAllPosts(): PostMetadata[] {
-    return posts.sort((a, b) => {
+    return [...posts].sort((a, b) => {
         return new Date(b.date).getTime() - new Date(a.date).getTime()
     })
 }
