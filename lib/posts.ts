@@ -17,7 +17,7 @@ export const posts: PostMetadata[] = [
         slug: 'hello',
         title: 'Hello, World!',
         date: '2025-11-22',
-        description: 'Welcome to my blog. I write about software, projects, and experiments in code.',
+        description: 'Welcome to my blog!',
         tags: ['Meta'],
         featured: true,
     },

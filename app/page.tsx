@@ -1,28 +1,7 @@
 import Image from "next/image"
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa"
 import BannerPhoto from '../public/FilmPhoto.jpg'
-
-// Section Component for better organization
-function Section({
-  title,
-  children,
-  className = ""
-}: {
-  title: string
-  children: React.ReactNode
-  className?: string
-}) {
-  return (
-    <section className={`w-full ${className}`}>
-      <h3 className="text-text-primary text-xl lg:text-2xl font-semibold mb-3 pb-2 border-b border-border">
-        {title}
-      </h3>
-      <div className="text-text-primary text-base lg:text-lg leading-relaxed space-y-4">
-        {children}
-      </div>
-    </section>
-  )
-}
+import HomeContent from './home-content.mdx'
 
 // Social Link Component
 function SocialLink({
@@ -72,7 +51,7 @@ export default function Home() {
             </h1>
 
             <h2 className="text-text-secondary text-lg sm:text-xl xl:text-2xl">
-              Student • Fullstack Developer • Photographer
+              Software Engineer
             </h2>
 
             {/* Social Links */}
@@ -98,84 +77,7 @@ export default function Home() {
 
         <br />
 
-        {/* Bio Section */}
-        <Section title="Bio">
-          <p>
-            My real name is Abe, but all my friends know me as Sprocket! I&apos;m an aspiring software
-            engineer from Seattle, Washington, and currently majoring in Computer Science at Purdue University.
-          </p>
-        </Section>
-
-        {/* Experience Section */}
-        <Section title="Experience" className="mt-12">
-          <p>
-            This past summer I was an intern at{' '}
-            <a
-              className="link"
-              href="https://rndgroup.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              The RND Group
-            </a>
-            , which is a medical device software company based in Indianapolis, Indiana. I was a
-            software developer on the NeuMoDx project, an FDA approved device shipped internationally
-            that allows for testing of various diseases at large scales. I worked on tasks like resolving
-            defects in user options and sample running menus that operators interact with daily that
-            impacted security and usability, creating audits that allow for the logging and monitoring
-            of user actions, and correcting filtering so that operators can clearly find the sample
-            results and tests that they need.
-          </p>
-          <p>
-            Currently, I&apos;m a developer for the Purdue club known as{' '}
-            <a
-              className="link"
-              href="https://pros.cs.purdue.edu/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              PROS
-            </a>
-            , where we build and maintain a kernel for VEX&apos;s V5 robot brain that&apos;s used by
-            teams around the world in robotics competitions.
-          </p>
-        </Section>
-
-        {/* Hobbies Section */}
-        <Section title="Hobbies" className="mt-12">
-          <p>
-            When I get a break from my studies, I usually spend time playing games with friends or
-            running outside to snap some photos. I was brought up around video games, and so ever
-            since I was young they&apos;ve been a fun way to stay connected to both friends and family.
-            As for photography, I picked it up just over a year ago, and it&apos;s served as a way to
-            capture memories. I primarily focus on landscape and street photography, and have a
-            particular love for film. You can find my Instagram account where I post some of my photos{' '}
-            <a
-              className="link"
-              href="https://www.instagram.com/sprock_shoots_film"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              here
-            </a>
-            {' '}if you&apos;re interested.
-          </p>
-        </Section>
-
-        {/* Blog/Projects Section */}
-        <Section title="Blog & Projects" className="mt-12">
-          <p className="mb-4">
-            I occasionally write about my projects and experiments with code.
-          </p>
-
-          <a
-            href="/blog"
-            className="inline-flex items-center gap-2 text-text-link hover:text-text-link-hover text-lg font-medium group"
-          >
-            View Blog
-            <span className="group-hover:translate-x-1 transition-transform">→</span>
-          </a>
-        </Section>
+        <HomeContent />
       </div>
 
       {/* Footer */}

@@ -109,37 +109,11 @@ export default function BlogDirectory() {
             </main>
 
             {/* Footer */}
-            <footer className="mt-20 py-8 border-t border-border">
-                <div className="max-w-6xl mx-auto px-6">
-                    <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-                        <p className="text-text-tertiary text-sm">
-                            © {new Date().getFullYear()} Abe Riggs IV. All Rights Reserved.
-                        </p>
-                        <div className="flex gap-4">
-                            <Link
-                                href="/"
-                                className="text-text-link hover:text-text-link-hover text-sm transition-colors"
-                            >
-                                Home
-                            </Link>
-                            <Link
-                                href="https://github.com/aberiggs"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="text-text-link hover:text-text-link-hover text-sm transition-colors"
-                            >
-                                GitHub
-                            </Link>
-                            <Link
-                                href="https://linkedin.com/in/aberiggs4"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="text-text-link hover:text-text-link-hover text-sm transition-colors"
-                            >
-                                LinkedIn
-                            </Link>
-                        </div>
-                    </div>
+            <footer className="py-8 border-t border-border">
+                <div className="max-w-6xl mx-auto px-6 text-center">
+                    <p className="text-text-tertiary text-sm">
+                        © {new Date().getFullYear()} Abe Riggs IV. All Rights Reserved.
+                    </p>
                 </div>
             </footer>
         </div>
