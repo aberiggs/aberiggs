@@ -2,7 +2,7 @@
 #### 💼 Experience
 - **Software Development Engineer** @ Adobe [Feb. 2025 - Present]
 - **Research Engineering Intern** @ Adobe [Summer 2024]
-- **Teaching Assistant** @ Purdue University [Spring 2024]
+- **Teaching Assistant (CS252)** @ Purdue University [Spring 2024]
 - **Software Engineering Intern** @ The RND Group [Summer 2023]
 
 #### 🌱 Interests
